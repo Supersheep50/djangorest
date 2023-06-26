@@ -41,7 +41,6 @@ ALLOWED_HOSTS = [ '8000-supersheep50-djangorest-7wxaqwo4b9h.ws-eu100.gitpod.io']
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -54,6 +53,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'profiles',
+    'posts',
 ]
 
 MIDDLEWARE = [
